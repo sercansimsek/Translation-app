@@ -1,5 +1,5 @@
 {
-  "name": "Scrim-s05rqc4",
+  "name": "translation-app",
   "description": "https://scrimba.com/fullstack-path-c0fullstack/~0xrr",
   "scripts": {
     "start": "vite",
@@ -8,7 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dompurify": "^3.3.3",
+    "express": "^5.2.1",
+    "marked": "^17.0.4",
+    "openai": "^6.27.0",
     "vite": "latest"
-  },
-  "devDependencies": {}
+  }
 }
