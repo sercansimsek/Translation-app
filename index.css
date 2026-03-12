@@ -49,11 +49,13 @@ body {
 
 /* Main */
 
-.main {
+.form {
     width: 390px;
     background-color: #fff;
+    padding: 2em 1em;
 }
 
-.main-container {
+.form-container {
     border: 2px solid #252F42;
+    
 }
