@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #333;
+  background-color: #fff;
 }
 
 /* Header */
@@ -62,7 +62,8 @@ body {
 }
 
 .form-container {
-  border: 2px solid #252f42;
+  border: 3px solid #252f42;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -86,7 +87,7 @@ body {
   resize: none;
   border: none;
   border-radius: 5px;
-  padding: .5em;
+  padding: 0.5em;
 
   align-self: center;
 }
@@ -94,6 +95,14 @@ body {
 .form-selections {
   display: flex;
   flex-direction: column;
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+}
+
+.form-selections label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 0.3em;
 }
 
 .form-btn {
@@ -102,5 +111,9 @@ body {
   align-self: center;
   border-radius: 5px;
   border: none;
-  padding: 1em 9em;
+  padding: 0.5em 4em;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0.5em;
 }
