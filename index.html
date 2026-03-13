@@ -24,9 +24,45 @@
     </header>
 
     <form class="form">
-        <div class="form-container">
-            <div class="textarea-heading">Text to translate</div>
+      <div class="form-container">
+        <label class="textarea-heading" for="form-textarea"
+          >Text to translate 👇</label
+        >
+        <textarea
+          name="form-textarea"
+          id="form-textarea"
+          class="form-textarea"
+          rows="5"
+          cols="27"
+          placeholder="How are you?"
+        ></textarea>
+        <div class="select-heading">Select language 👇</div>
+        <div class="form-selections">
+          <div>
+            <input
+              type="radio"
+              id="spanish"
+              name="form-radio"
+              value="Spanish"
+            />
+            <label for="spanish">Spanish</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="turkish"
+              name="form-radio"
+              value="Turkish"
+            />
+            <label for="turkish">Turkish</label>
+          </div>
+          <div>
+            <input type="radio" id="slovak" name="form-radio" value="Slovak" />
+            <label for="slovak">Slovak</label>
+          </div>
         </div>
+        <button type="submit" class="form-btn">Translate</button>
+      </div>
     </form>
     <script type="module" src="index.js"></script>
   </body>
